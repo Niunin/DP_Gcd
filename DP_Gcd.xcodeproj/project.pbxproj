@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		EB1E169A2770CD3C009D5FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E16992770CD3C009D5FC9 /* AppDelegate.swift */; };
 		EB1E169C2770CD3C009D5FC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E169B2770CD3C009D5FC9 /* SceneDelegate.swift */; };
-		EB1E169E2770CD3C009D5FC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E169D2770CD3C009D5FC9 /* ViewController.swift */; };
 		EB1E16A32770CD3D009D5FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1E16A22770CD3D009D5FC9 /* Assets.xcassets */; };
 		EB1E16A62770CD3D009D5FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1E16A42770CD3D009D5FC9 /* LaunchScreen.storyboard */; };
 		EB1E16B12770CD3E009D5FC9 /* DP_GcdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E16B02770CD3E009D5FC9 /* DP_GcdTests.swift */; };
 		EB1E16BB2770CD3E009D5FC9 /* DP_GcdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E16BA2770CD3E009D5FC9 /* DP_GcdUITests.swift */; };
 		EB1E16BD2770CD3E009D5FC9 /* DP_GcdUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E16BC2770CD3E009D5FC9 /* DP_GcdUITestsLaunchTests.swift */; };
+		EB7981AE2771E8C80097CB1F /* ShowGlassPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7981A92771E8C80097CB1F /* ShowGlassPresenter.swift */; };
+		EB7981AF2771E8C80097CB1F /* ShowGlassRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7981AA2771E8C80097CB1F /* ShowGlassRouter.swift */; };
+		EB7981B02771E8C80097CB1F /* ShowGlassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7981AB2771E8C80097CB1F /* ShowGlassModel.swift */; };
+		EB7981B12771E8C80097CB1F /* ShowGlassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7981AC2771E8C80097CB1F /* ShowGlassVC.swift */; };
+		EB7981B22771E8C80097CB1F /* ShowGlassMvpInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7981AD2771E8C80097CB1F /* ShowGlassMvpInterfaces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		EB1E16962770CD3C009D5FC9 /* DP_Gcd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DP_Gcd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1E16992770CD3C009D5FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB1E169B2770CD3C009D5FC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB1E169D2770CD3C009D5FC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB1E16A22770CD3D009D5FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB1E16A52770CD3D009D5FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB1E16A72770CD3D009D5FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		EB1E16B62770CD3E009D5FC9 /* DP_GcdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DP_GcdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1E16BA2770CD3E009D5FC9 /* DP_GcdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DP_GcdUITests.swift; sourceTree = "<group>"; };
 		EB1E16BC2770CD3E009D5FC9 /* DP_GcdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DP_GcdUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB7981A92771E8C80097CB1F /* ShowGlassPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGlassPresenter.swift; sourceTree = "<group>"; };
+		EB7981AA2771E8C80097CB1F /* ShowGlassRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGlassRouter.swift; sourceTree = "<group>"; };
+		EB7981AB2771E8C80097CB1F /* ShowGlassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGlassModel.swift; sourceTree = "<group>"; };
+		EB7981AC2771E8C80097CB1F /* ShowGlassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGlassVC.swift; sourceTree = "<group>"; };
+		EB7981AD2771E8C80097CB1F /* ShowGlassMvpInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGlassMvpInterfaces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +105,9 @@
 		EB1E16982770CD3C009D5FC9 /* DP_Gcd */ = {
 			isa = PBXGroup;
 			children = (
+				EB6658AC2771DE1100B1ED55 /* AppFiles */,
+				EB6658AB2771DDF400B1ED55 /* Modules */,
 				EB1E16C92770CEBB009D5FC9 /* SupportingFIles */,
-				EB1E16992770CD3C009D5FC9 /* AppDelegate.swift */,
-				EB1E169B2770CD3C009D5FC9 /* SceneDelegate.swift */,
-				EB1E169D2770CD3C009D5FC9 /* ViewController.swift */,
 			);
 			path = DP_Gcd;
 			sourceTree = "<group>";
@@ -130,6 +137,35 @@
 				EB1E16A72770CD3D009D5FC9 /* Info.plist */,
 			);
 			path = SupportingFIles;
+			sourceTree = "<group>";
+		};
+		EB6658AB2771DDF400B1ED55 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EB7981B32771E8CE0097CB1F /* a. ShowGlass */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EB6658AC2771DE1100B1ED55 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EB1E16992770CD3C009D5FC9 /* AppDelegate.swift */,
+				EB1E169B2770CD3C009D5FC9 /* SceneDelegate.swift */,
+			);
+			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		EB7981B32771E8CE0097CB1F /* a. ShowGlass */ = {
+			isa = PBXGroup;
+			children = (
+				EB7981A92771E8C80097CB1F /* ShowGlassPresenter.swift */,
+				EB7981AA2771E8C80097CB1F /* ShowGlassRouter.swift */,
+				EB7981AB2771E8C80097CB1F /* ShowGlassModel.swift */,
+				EB7981AC2771E8C80097CB1F /* ShowGlassVC.swift */,
+				EB7981AD2771E8C80097CB1F /* ShowGlassMvpInterfaces.swift */,
+			);
+			path = "a. ShowGlass";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1E169E2770CD3C009D5FC9 /* ViewController.swift in Sources */,
+				EB7981B22771E8C80097CB1F /* ShowGlassMvpInterfaces.swift in Sources */,
 				EB1E169A2770CD3C009D5FC9 /* AppDelegate.swift in Sources */,
+				EB7981AE2771E8C80097CB1F /* ShowGlassPresenter.swift in Sources */,
+				EB7981B12771E8C80097CB1F /* ShowGlassVC.swift in Sources */,
 				EB1E169C2770CD3C009D5FC9 /* SceneDelegate.swift in Sources */,
+				EB7981AF2771E8C80097CB1F /* ShowGlassRouter.swift in Sources */,
+				EB7981B02771E8C80097CB1F /* ShowGlassModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
