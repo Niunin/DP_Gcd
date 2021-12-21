@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - Router protocol
 
-protocol ShowGlassRouterProtocol: AnyObject  {
+protocol ShowGlassRouterProtocol: AnyObject {
     
     var entry: ShowGlassEntryPoint! { get }
     

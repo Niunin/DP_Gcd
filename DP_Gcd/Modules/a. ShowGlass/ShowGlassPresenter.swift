@@ -12,12 +12,12 @@ import Foundation
 
 class ShowGlassPresenter: ShowGlassPresenterProtocol {
     
-    //MARK: properties
+    // MARK: properties
     
     private(set) var view: ShowGlassViewProtocol
     var router: ShowGlassRouterProtocol?
     
-    //MARK: inint
+    // MARK: inint
     
     required init(view: ShowGlassViewProtocol) {
         self.view = view

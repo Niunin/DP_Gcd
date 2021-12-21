@@ -7,7 +7,7 @@
 
 import XCTest
 
-class DP_GcdUITestsLaunchTests: XCTestCase {
+class GcdUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
