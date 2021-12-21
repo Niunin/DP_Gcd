@@ -1,0 +1,8 @@
+disabled_rules:
+- trailing_whitespace
+- todo
+- force_cast
+- identifier_name
+line_length:
+- 200 # warning
+- 300 # error
