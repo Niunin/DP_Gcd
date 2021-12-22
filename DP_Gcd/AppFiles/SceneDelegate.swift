@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  DP_Gcd
 //
-//  Created by avito on 20.12.2021.
+//  Created by Niunin on 20.12.2021.
 //
 
 import UIKit

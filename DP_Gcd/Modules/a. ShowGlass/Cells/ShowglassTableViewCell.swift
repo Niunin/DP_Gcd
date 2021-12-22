@@ -2,7 +2,7 @@
 //  ShowglassTableViewCell.swift
 //  DP_Gcd
 //
-//  Created by avito on 22.12.2021.
+//  Created by Niunin on 22.12.2021.
 //
 
 import UIKit

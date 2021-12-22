@@ -2,7 +2,7 @@
 //  DP_GcdTests.swift
 //  DP_GcdTests
 //
-//  Created by avito on 20.12.2021.
+//  Created by Niunin on 20.12.2021.
 //
 
 import XCTest
