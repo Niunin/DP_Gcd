@@ -37,4 +37,8 @@ class ShowGlassPresenter: ShowGlassPresenterProtocol {
         
     }
     
+    func buttonPressedPlus() {
+        router?.showImagePicker()
+    }
+    
 }

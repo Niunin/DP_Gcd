@@ -11,7 +11,7 @@ import UIKit
 // MARK: - Object
 
 class ShowGlassViewController: UITableViewController, ShowGlassViewProtocol {
-    
+      
     // MARK: properties
     
     var presenter: ShowGlassPresenterProtocol!
@@ -45,7 +45,7 @@ private extension ShowGlassViewController {
             ShowglassTableViewCell.self,
             forCellReuseIdentifier: ShowglassTableViewCell.reuseIdentifier
         )
-        tableView.backgroundColor = .cyan
+        tableView.backgroundColor = .lightGray
         tableView.separatorStyle = .none
         tableView.allowsSelection = false
     }
@@ -67,9 +67,16 @@ extension ShowGlassViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: ShowglassTableViewCell.reuseIdentifier) as! ShowglassTableViewCell
         let params = ShowglassModel(prefix: "🎉", title: "Add your first image")
+        
+        cell.plusButton.addTarget(self, action: #selector(plusPushed(_:)), for: .touchUpInside)
         cell.configure(params)
         return cell
 
+    }
+    
+    @IBAction func plusPushed(_ sender: UIButton) {
+        print(" plus pushed")
+        presenter.buttonPressedPlus()
     }
     
 }

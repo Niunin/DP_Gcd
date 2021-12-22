@@ -16,7 +16,7 @@ class ShowglassTableViewCell: UITableViewCell {
     // Views
     private let backgroundImageView = UIImageView()
     private let titleLabel = UILabel()
-    private let plusButton = UIButton(type: .system)
+    let plusButton = UIButton(type: .system)
     
     // Model
     private var model: ShowglassModel?

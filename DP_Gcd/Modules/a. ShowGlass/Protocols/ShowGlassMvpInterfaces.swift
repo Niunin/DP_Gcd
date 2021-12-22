@@ -17,6 +17,9 @@ protocol ShowGlassRouterProtocol: AnyObject {
     static func build() -> ShowGlassEntryPoint
     
     // MARK: methods
+    
+    func showImagePicker()
+    
 }
 
 // MARK: - View protocol
@@ -26,6 +29,7 @@ protocol ShowGlassViewProtocol: AnyObject {
     var presenter: ShowGlassPresenterProtocol! { get set }
     
     // MARK: methods
+
 }
 
 // MARK: - Presenter protocol
@@ -40,7 +44,7 @@ protocol ShowGlassPresenterProtocol: AnyObject {
     func viewWillAppear()
     func viewWillDisappear()
     
-//    func buttonPressed<#Name#>()
+    func buttonPressedPlus()
 //    func buttonPressed<#Name#>()
 //    func viewRequested(<#Tap#>ActionForItemAt: IndexPath)
 //    func viewRequested(<#Some#>ActionForItemAt: IndexPath)

@@ -24,6 +24,7 @@
 		EB7981B22771E8C80097CB1F /* ShowGlassMvpInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7981AD2771E8C80097CB1F /* ShowGlassMvpInterfaces.swift */; };
 		EB8B36A9277323D800A5510A /* ShowglassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B36A8277323D800A5510A /* ShowglassTableViewCell.swift */; };
 		EB8B36AD2773274400A5510A /* ShowglassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B36AC2773274400A5510A /* ShowglassModel.swift */; };
+		EB8B36B5277351FC00A5510A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B36B4277351FC00A5510A /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		EB7981AD2771E8C80097CB1F /* ShowGlassMvpInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGlassMvpInterfaces.swift; sourceTree = "<group>"; };
 		EB8B36A8277323D800A5510A /* ShowglassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowglassTableViewCell.swift; sourceTree = "<group>"; };
 		EB8B36AC2773274400A5510A /* ShowglassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowglassModel.swift; sourceTree = "<group>"; };
+		EB8B36B4277351FC00A5510A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		F4551046BA2C25EAC943371B /* Pods-DP_Gcd-DP_GcdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DP_Gcd-DP_GcdUITests.debug.xcconfig"; path = "Target Support Files/Pods-DP_Gcd-DP_GcdUITests/Pods-DP_Gcd-DP_GcdUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,6 +188,7 @@
 		EB6658AB2771DDF400B1ED55 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EB8B36B3277351E900A5510A /* aa. ImagePicker */,
 				EB7981B32771E8CE0097CB1F /* a. ShowGlass */,
 			);
 			path = Modules;
@@ -203,13 +206,13 @@
 		EB7981B32771E8CE0097CB1F /* a. ShowGlass */ = {
 			isa = PBXGroup;
 			children = (
+				EB8B36B22773505500A5510A /* Protocols */,
 				EB8B36AB2773272A00A5510A /* Model */,
 				EB8B36AA2773272300A5510A /* Cells */,
 				EB7981A92771E8C80097CB1F /* ShowGlassPresenter.swift */,
 				EB7981AA2771E8C80097CB1F /* ShowGlassRouter.swift */,
 				EB7981AB2771E8C80097CB1F /* ShowGlassModel.swift */,
 				EB7981AC2771E8C80097CB1F /* ShowGlassVC.swift */,
-				EB7981AD2771E8C80097CB1F /* ShowGlassMvpInterfaces.swift */,
 			);
 			path = "a. ShowGlass";
 			sourceTree = "<group>";
@@ -228,6 +231,22 @@
 				EB8B36AC2773274400A5510A /* ShowglassModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EB8B36B22773505500A5510A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EB7981AD2771E8C80097CB1F /* ShowGlassMvpInterfaces.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EB8B36B3277351E900A5510A /* aa. ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EB8B36B4277351FC00A5510A /* ImagePicker.swift */,
+			);
+			path = "aa. ImagePicker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,6 +477,7 @@
 				EB1E169C2770CD3C009D5FC9 /* SceneDelegate.swift in Sources */,
 				EB8B36A9277323D800A5510A /* ShowglassTableViewCell.swift in Sources */,
 				EB7981AF2771E8C80097CB1F /* ShowGlassRouter.swift in Sources */,
+				EB8B36B5277351FC00A5510A /* ImagePicker.swift in Sources */,
 				EB8B36AD2773274400A5510A /* ShowglassModel.swift in Sources */,
 				EB7981B02771E8C80097CB1F /* ShowGlassModel.swift in Sources */,
 			);

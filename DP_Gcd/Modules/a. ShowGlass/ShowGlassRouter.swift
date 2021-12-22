@@ -36,4 +36,12 @@ class ShowGlassRouter: ShowGlassRouterProtocol {
     
     // MARK: mvp router protocol conformance
     
+    func showImagePicker() {
+        let viewController = UIImagePickerController()
+        viewController.sourceType = .photoLibrary
+        viewController.modalPresentationStyle = .formSheet // .formSheet
+        viewController.modalTransitionStyle = .coverVertical
+        entry.present(viewController, animated: true, completion: nil)
+    }
+    
 }
