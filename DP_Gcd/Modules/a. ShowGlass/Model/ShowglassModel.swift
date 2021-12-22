@@ -12,10 +12,10 @@ import UIKit.UIImage
 
 struct ShowglassModel {
     
-    var image: UIImage?
+    var image: UIImage? = nil
     var prefix = String()
     // TODO: make check if emoji char is really emoji
-    var emojis: Character?
+    var emojis: Character? = nil
     var title = String()
 
 }

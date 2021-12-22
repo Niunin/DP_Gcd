@@ -17,6 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let showGlassNC = UINavigationController(rootViewController: showGlassVC)
         showGlassNC.navigationBar.topItem?.title = "GCD Image Picker"
         showGlassNC.navigationBar.prefersLargeTitles = true
+        showGlassNC.navigationBar.isHidden = true
         
         // Window
         guard let windowScene = (scene as? UIWindowScene) else {
