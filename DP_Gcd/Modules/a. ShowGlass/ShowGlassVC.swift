@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: - Object
 
-class ShowGlassViewController: UIViewController, ShowGlassViewProtocol {
+class ShowGlassViewController: UITableViewController, ShowGlassViewProtocol {
     
     // MARK: properties
     
@@ -33,11 +33,21 @@ private extension ShowGlassViewController {
     
     func setupViews() {
         setupSelf()
+        setupTableView()
         setupConstraints()
     }
     
     func setupSelf() {
         
+    }
+    
+    func setupTableView() {
+        tableView.register(
+            ShowglassTableViewCell.self,
+            forCellReuseIdentifier: ShowglassTableViewCell.reuseIdentifier
+        )
+        tableView.backgroundColor = .cyan
+        tableView.separatorStyle = .none
     }
     
     func setupConstraints() {
